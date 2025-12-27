@@ -5,8 +5,13 @@
     <input type="text" 
            id="item"
            name="item"
-            [(ngModel)]="item" placeholder="Digite o nome do item" />
-    <button type="submit">adcionar</button>
+            [(ngModel)]="item" 
+            placeholder="Digite o nome do item" />
+
+    <button type="submit">adicionar</button>
+
+   <button type="button" (click)="limparLista()">Limpar Lista</button>
+
 </form>
 
 <table>
